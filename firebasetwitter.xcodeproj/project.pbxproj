@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B3F9C46339BE1D6DB22BBB9 /* libPods-firebasetwitter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E899E88AB110510AD3BB49E /* libPods-firebasetwitter.a */; };
+		B4D8B4C71F1DD0D000FFBCEF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D8B4C61F1DD0D000FFBCEF /* GoogleService-Info.plist */; };
+		B4D8B4CC1F1DD10300FFBCEF /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D8B4C81F1DD10300FFBCEF /* TwitterCore.framework */; };
+		B4D8B4CD1F1DD10300FFBCEF /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D8B4C91F1DD10300FFBCEF /* TwitterKit.framework */; };
+		B4D8B4CE1F1DD10300FFBCEF /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B4D8B4CA1F1DD10300FFBCEF /* TwitterKitResources.bundle */; };
+		B4D8B4CF1F1DD10300FFBCEF /* TwitterShareExtensionUIResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B4D8B4CB1F1DD10300FFBCEF /* TwitterShareExtensionUIResources.bundle */; };
+		B4D8B4D11F1DD16100FFBCEF /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D8B4D01F1DD16100FFBCEF /* SafariServices.framework */; };
+		B4D8B4D51F1DF49B00FFBCEF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D8B4D41F1DF49B00FFBCEF /* Default-568h@2x.png */; };
 		B4FA8E2A1F1DCA9200F4DD44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FA8E291F1DCA9200F4DD44 /* main.m */; };
 		B4FA8E2D1F1DCA9200F4DD44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FA8E2C1F1DCA9200F4DD44 /* AppDelegate.m */; };
 		B4FA8E301F1DCA9200F4DD44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FA8E2F1F1DCA9200F4DD44 /* ViewController.m */; };
@@ -16,6 +24,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40F9C4D97FFB233502010065 /* Pods-firebasetwitter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebasetwitter.release.xcconfig"; path = "Pods/Target Support Files/Pods-firebasetwitter/Pods-firebasetwitter.release.xcconfig"; sourceTree = "<group>"; };
+		7E899E88AB110510AD3BB49E /* libPods-firebasetwitter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-firebasetwitter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4D8B4C61F1DD0D000FFBCEF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B4D8B4C81F1DD10300FFBCEF /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
+		B4D8B4C91F1DD10300FFBCEF /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		B4D8B4CA1F1DD10300FFBCEF /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TwitterKitResources.bundle; sourceTree = "<group>"; };
+		B4D8B4CB1F1DD10300FFBCEF /* TwitterShareExtensionUIResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TwitterShareExtensionUIResources.bundle; sourceTree = "<group>"; };
+		B4D8B4D01F1DD16100FFBCEF /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		B4D8B4D41F1DF49B00FFBCEF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B4FA8E251F1DCA9200F4DD44 /* firebasetwitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firebasetwitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4FA8E291F1DCA9200F4DD44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B4FA8E2B1F1DCA9200F4DD44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +43,7 @@
 		B4FA8E341F1DCA9200F4DD44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4FA8E371F1DCA9200F4DD44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4FA8E391F1DCA9200F4DD44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCFF9D8156351041FF039FAB /* Pods-firebasetwitter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebasetwitter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-firebasetwitter/Pods-firebasetwitter.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +51,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4D8B4D11F1DD16100FFBCEF /* SafariServices.framework in Frameworks */,
+				4B3F9C46339BE1D6DB22BBB9 /* libPods-firebasetwitter.a in Frameworks */,
+				B4D8B4CC1F1DD10300FFBCEF /* TwitterCore.framework in Frameworks */,
+				B4D8B4CD1F1DD10300FFBCEF /* TwitterKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DB87C9D3586C76F04F361C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCFF9D8156351041FF039FAB /* Pods-firebasetwitter.debug.xcconfig */,
+				40F9C4D97FFB233502010065 /* Pods-firebasetwitter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A85C872505449FC568087964 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4D8B4D01F1DD16100FFBCEF /* SafariServices.framework */,
+				7E899E88AB110510AD3BB49E /* libPods-firebasetwitter.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B4FA8E1C1F1DCA9200F4DD44 = {
 			isa = PBXGroup;
 			children = (
+				B4D8B4D41F1DF49B00FFBCEF /* Default-568h@2x.png */,
+				B4D8B4C61F1DD0D000FFBCEF /* GoogleService-Info.plist */,
 				B4FA8E271F1DCA9200F4DD44 /* firebasetwitter */,
 				B4FA8E261F1DCA9200F4DD44 /* Products */,
+				1DB87C9D3586C76F04F361C7 /* Pods */,
+				A85C872505449FC568087964 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +102,10 @@
 		B4FA8E271F1DCA9200F4DD44 /* firebasetwitter */ = {
 			isa = PBXGroup;
 			children = (
+				B4D8B4C81F1DD10300FFBCEF /* TwitterCore.framework */,
+				B4D8B4C91F1DD10300FFBCEF /* TwitterKit.framework */,
+				B4D8B4CA1F1DD10300FFBCEF /* TwitterKitResources.bundle */,
+				B4D8B4CB1F1DD10300FFBCEF /* TwitterShareExtensionUIResources.bundle */,
 				B4FA8E2B1F1DCA9200F4DD44 /* AppDelegate.h */,
 				B4FA8E2C1F1DCA9200F4DD44 /* AppDelegate.m */,
 				B4FA8E2E1F1DCA9200F4DD44 /* ViewController.h */,
@@ -86,9 +134,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4FA8E3C1F1DCA9200F4DD44 /* Build configuration list for PBXNativeTarget "firebasetwitter" */;
 			buildPhases = (
+				0E493644B16096C63700C3CC /* [CP] Check Pods Manifest.lock */,
 				B4FA8E211F1DCA9200F4DD44 /* Sources */,
 				B4FA8E221F1DCA9200F4DD44 /* Frameworks */,
 				B4FA8E231F1DCA9200F4DD44 /* Resources */,
+				68E125BD76B7F18C8870E953 /* [CP] Embed Pods Frameworks */,
+				6BA55C7507E7CAAFED962F26 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,6 +161,7 @@
 				TargetAttributes = {
 					B4FA8E241F1DCA9200F4DD44 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = C8TKDZAK98;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -138,12 +190,64 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4FA8E381F1DCA9200F4DD44 /* LaunchScreen.storyboard in Resources */,
+				B4D8B4C71F1DD0D000FFBCEF /* GoogleService-Info.plist in Resources */,
 				B4FA8E351F1DCA9200F4DD44 /* Assets.xcassets in Resources */,
 				B4FA8E331F1DCA9200F4DD44 /* Main.storyboard in Resources */,
+				B4D8B4CE1F1DD10300FFBCEF /* TwitterKitResources.bundle in Resources */,
+				B4D8B4D51F1DF49B00FFBCEF /* Default-568h@2x.png in Resources */,
+				B4D8B4CF1F1DD10300FFBCEF /* TwitterShareExtensionUIResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E493644B16096C63700C3CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		68E125BD76B7F18C8870E953 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-firebasetwitter/Pods-firebasetwitter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BA55C7507E7CAAFED962F26 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-firebasetwitter/Pods-firebasetwitter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B4FA8E211F1DCA9200F4DD44 /* Sources */ = {
@@ -268,22 +372,34 @@
 		};
 		B4FA8E3D1F1DCA9200F4DD44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCFF9D8156351041FF039FAB /* Pods-firebasetwitter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C8TKDZAK98;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/firebasetwitter",
+				);
 				INFOPLIST_FILE = firebasetwitter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.employee.firebasetwitter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.employee.bhavy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		B4FA8E3E1F1DCA9200F4DD44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40F9C4D97FFB233502010065 /* Pods-firebasetwitter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C8TKDZAK98;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/firebasetwitter",
+				);
 				INFOPLIST_FILE = firebasetwitter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.employee.firebasetwitter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.employee.bhavy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -307,6 +423,7 @@
 				B4FA8E3E1F1DCA9200F4DD44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

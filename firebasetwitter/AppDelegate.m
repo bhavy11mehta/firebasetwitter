@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import <TwitterKit/TwitterKit.h>
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [FIRApp configure];
+    [[Twitter sharedInstance] startWithConsumerKey:@"cnWfkgO5kOGKFb650c8PyqORM" consumerSecret:@"r2idKwUGS7rtT458mHYbV08AexiSBbHitKGIk2rM6capCe2npx"];
+    
+
     return YES;
 }
 
@@ -25,7 +29,9 @@
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
 }
-
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString *,id> *)options {
+    return [[Twitter sharedInstance] application:app openURL:url options:options];
+}
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
